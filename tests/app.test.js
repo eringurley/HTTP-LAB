@@ -10,4 +10,13 @@ describe('checking http routes', () => {
         done();
       });
   });
+
+  it('returns index page at /index.html', () => {
+    return request(app)
+      .get('/index.html')
+      .then(res => {
+        expect(res.status).toEqual(200);
+        expect(res.text).toEqual(expect.stringContaining('hello erin'));
+      });
+  });
 });
