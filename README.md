@@ -5,7 +5,7 @@
 1. read the html file from `public`
 1. need to get the contents of the `index.html` file
 1. load the contents into the server
-1. 
+1. test for no index 
 1. if not found return 404
 1. if we go to index.html
 1. if not index.html
