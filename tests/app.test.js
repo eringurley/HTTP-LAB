@@ -10,4 +10,4 @@ describe('checking http routes', () => {
         done();
       });
   });
-})
+});
